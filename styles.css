@@ -1,0 +1,109 @@
+.body-container{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background-image: url("https://github.com/KScarabello/html-css-assessment/blob/master/img/main-bg.jpeg?raw=true")
+}
+
+.navbar-top{
+    width: 100%;    
+    justify-content: center;
+    align-items: center;
+
+}
+
+.list-of-three{
+    display:flex;
+    width: 100%;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.burger-sm{
+    display:none;
+    size: 50px;
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.burger{
+    display:flex;
+    align-items: row;
+    justify-content: flex-start;
+    padding-right: 50px;
+}
+
+.fb-twit{
+    display:flex;
+    align-items: row;
+    justify-content: flex-end;
+    padding-left: 50px;
+}
+
+.fb{
+    padding: 5px;
+
+}
+
+.twit{
+    padding: 5px;
+}
+
+.center-text{
+    top: 30%;
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    
+}
+
+.your{
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal-portfolio{
+    font-size:25px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.arrow{
+    width: 100%;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+@media (max-width: 700px){
+
+.list-of-three{
+    display:none;
+}
+}
+
+
+@media(min-width: 700px){
+
+.burger-sm{
+    display:none;
+}
+
+}
+
